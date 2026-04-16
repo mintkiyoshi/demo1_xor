@@ -15,7 +15,7 @@ Design Engineer:
 	
 
 Date:
-	16 Apr 2026
+	10 Apr 2026
 ======================================================*/
 
 
@@ -28,7 +28,7 @@ input B;
 output Y;
 
 // xor gate
-assign Y = (~A & B) + (A & ~B);
+assign Y = (~ A & B) + (A & ~B);
 
 
 
